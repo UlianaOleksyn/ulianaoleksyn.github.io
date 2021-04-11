@@ -1,0 +1,37 @@
+/*
+Error: Inconsistent indentation: "\t  " was used for indentation, but the rest of the document was indented using 2 spaces.
+        on line 195 of G:\proekty w VS\project html_css\uber\sass\style.sass
+
+190: .mobile
+191:   background: url("../img/mobile_bg.png") center center / cover no-repeat
+192:   padding: 48px 0 79px 0
+193:   min-height: 864px
+194:   .row
+195: 	  margin-top: 32px
+196:   &_item
+197: 	  width: 320px
+198: 	  height: 280px
+199: 	  margin: 0 auto 19px auto
+200: 	  padding-top: 92px
+
+Backtrace:
+G:\proekty w VS\project html_css\uber\sass\style.sass:195
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:494:in `block in tabulate'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `each_with_index'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `tabulate'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:417:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: \"\t  \" was used for indentation, but the rest of the document was indented using 2 spaces.\A         on line 195 of G:\proekty w VS\project html_css\uber\sass\style.sass\A \A 190: .mobile\A 191:   background: url(\"../img/mobile_bg.png\") center center / cover no-repeat\A 192:   padding: 48px 0 79px 0\A 193:   min-height: 864px\A 194:   .row\A 195: 	  margin-top: 32px\A 196:   &_item\A 197: 	  width: 320px\A 198: 	  height: 280px\A 199: 	  margin: 0 auto 19px auto\A 200: 	  padding-top: 92px"; }
